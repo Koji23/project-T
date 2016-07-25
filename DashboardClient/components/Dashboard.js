@@ -9,8 +9,6 @@ import {Grid, Row, Col, Clearfix, Panel, Well, Button, Glyphicon} from 'react-bo
 import {Navbar, Nav, NavItem, NavDropdown, MenuItem, Image, Jumbotron} from 'react-bootstrap';
 import {Router, Route, Link, hashHistory, IndexRoute} from 'react-router';
 
-console.log('----------------------------', d3)
-
 var styles = {
   'background-color': 'black'
 }
@@ -435,7 +433,7 @@ class Dashboard extends React.Component {
             </Col>
             <Col md={6} mdPull={6}>
               <div style={outline}>
-                <h1 style={titular}>SENTIMENT ANALYSISS</h1>
+                <h1 style={titular}>SENTIMENT ANALYSIS</h1>
                 <div id="twitterChart" style={this.state.twitterSpinner ? {backgroundImage: 'url(styles/spiffygif_46x46.gif)', 'background-repeat':'no-repeat'} : {backgroundImage: 'none'}}></div>
                 <h2>Facebook Sentiment</h2>
                 <div id="facebookChart"></div>

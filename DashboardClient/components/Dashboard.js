@@ -435,7 +435,7 @@ class Dashboard extends React.Component {
             </Col>
             <Col md={6} mdPull={6}>
               <div style={outline}>
-                <h1 style={titular}>SENTIMENTAL ANALYSIS</h1>
+                <h1 style={titular}>SENTIMENT ANALYSISS</h1>
                 <div id="twitterChart" style={this.state.twitterSpinner ? {backgroundImage: 'url(styles/spiffygif_46x46.gif)', 'background-repeat':'no-repeat'} : {backgroundImage: 'none'}}></div>
                 <h2>Facebook Sentiment</h2>
                 <div id="facebookChart"></div>
